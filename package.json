@@ -10,7 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/ErikNovak/SmartJobs.git"
   },
-  "author": "Erik Novak",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Erik Novak <erik.novak@ijs.si>",
+  "contributors": [
+      {
+          "name": "Inna Novalija",
+          "email": "inna.novalija@ijs.si"
+      }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ErikNovak/SmartJobs/issues"
