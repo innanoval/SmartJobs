@@ -40,17 +40,17 @@ jspm_packages
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-ember-src/dist
-ember-src/tmp
+ember-source/dist
+ember-source/tmp
 
 # dependencies
-ember-src/node_modules
-ember-src/bower_components
+ember-source/node_modules
+ember-source/bower_components
 
 # misc
-ember-src/.sass-cache
-ember-src/connect.lock
-ember-src/coverage/*
-ember-src/libpeerconnection.log
-ember-src/npm-debug.log
-ember-src/testem.log
+ember-source/.sass-cache
+ember-source/connect.lock
+ember-source/coverage/*
+ember-source/libpeerconnection.log
+ember-source/npm-debug.log
+ember-source/testem.log
