@@ -1,7 +1,7 @@
 {
-  "name": "ember-src",
+  "name": "ember-source",
   "version": "0.0.0",
-  "description": "Small description for ember-src goes here",
+  "description": "The ember source code used to show the content of SmartJobs.",
   "private": true,
   "directories": {
     "doc": "doc",
