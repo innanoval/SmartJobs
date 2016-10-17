@@ -35,3 +35,22 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+ember-src/dist
+ember-src/tmp
+
+# dependencies
+ember-src/node_modules
+ember-src/bower_components
+
+# misc
+ember-src/.sass-cache
+ember-src/connect.lock
+ember-src/coverage/*
+ember-src/libpeerconnection.log
+ember-src/npm-debug.log
+ember-src/testem.log
