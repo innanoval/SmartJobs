@@ -36,9 +36,7 @@ This will create a server that watches for changes in the code and updates the d
 
 To generate different app components one can use the `ember generate` command. Make use of the many generators for code, try `ember help generate` for more details.
 
-<!-- ### Running Tests - `ember test` - `ember test --server` -->
-
- ### Building
+### Building
 
 This are the commands that are used for building the application.
 
