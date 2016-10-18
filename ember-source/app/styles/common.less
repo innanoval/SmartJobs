@@ -1,0 +1,75 @@
+@scarlet-red:           #730000;
+@main-background:       #f2f2f2;
+@secondary-background:  #FFFFFF;
+
+html,
+body {
+    padding-top: 25px;
+    background: @main-background;
+}
+
+.navbar {
+    background-color: @secondary-background;
+    border-bottom-width: 2px;
+    border-bottom-color: @scarlet-red;
+
+    margin-bottom: 0px;
+
+    .navbar-toggle {
+        background-color: @scarlet-red !important;
+        .icon-bar {
+            background-color: @secondary-background !important;
+        }
+    }
+
+    .navbar-nav {
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        a {
+            font-weight: 300;
+            -webkit-transition: all 0.2s ease-out;
+            -moz-transition:    all 0.2s ease-out;
+            -o-transition:      all 0.2s ease-out;
+            -ms-transition:     all 0.2s ease-out;
+            transition:         all 0.2s ease-out;
+
+            &:hover {
+                background-color: #d2d8e0 !important;
+            }
+        }
+
+        .active a {
+            background-color: @scarlet-red !important;
+            color:            @secondary-background !important;
+        }
+    }
+
+    .navbar-header {
+        a.active {
+            background-color: @scarlet-red !important;
+            color:            @secondary-background !important;
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    .navbar .navbar-nav a {
+        padding-left: 40px !important;
+    }
+}
+
+input {
+    border-radius: 0px !important;
+}
+
+button {
+    border-radius: 0px !important;
+
+    color:            @secondary-background !important;
+    outline-color:    #981616 !important;
+    background-color: @scarlet-red !important;
+    border-color:     @scarlet-red !important;
+    line-height: 24px;
+    border-radius: 0px;
+}
